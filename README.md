@@ -3,7 +3,7 @@ This is ABC Company Ltd Network design and Implementation
 
 **Case Study**
 
-ABC Ltd is a fast-growing company in West Africa, Nigeria with more than 4 million customers globally. The organization deals with the buying and selling of agricultural products which are operated from headquarters. The company is planning to open a branch near the local village of Enungba. Therefore, the company requires New recruited IT engineer to design a network for the branch.  The proposed network is intended to operate separately from the headquarters network.
+ABC Ltd. is a fast-growing company in West Africa, Nigeria with more than 4 million customers globally. The organization deals with the buying and selling of agricultural products which are operated from headquarters. The company is planning to open a branch near the local village of Enungba. Therefore, the company requires New recruited IT engineer to design a network for the branch.  The proposed network is intended to operate separately from the headquarters network.
 
 Being a small network, the company has the following requirements during implementation
 
@@ -45,8 +45,8 @@ Remember, you can not use a smaller number or equal to the required subnet neede
 Basic Network: 192.168.2.0/24
 Subnet Mask: 255.255.255.0 --- Class C
 Binary of SM: 11111111. 11111111.11111111.00000000
-Octet:              1st             2nd          3rd           4th 
-Network/host: Net         .  Net        .   Net       . Host
+Octet:        1st         2nd      3rd        4th 
+Network/host: Net         Net      Net       Host
 
 To satisfy the network requirements, 2 bits from the host portion will be borrowed.
 
@@ -64,7 +64,7 @@ Solving: 1*2^7+1*2^6+0*2^5+0*2^4+0*2^3+0*2^2+0*2^1+0*2^0 = 128+64+0+0+0+0+0+0 = 
 New Subnet Mask: 255.255.255.192
 Block size: 64
 
-After subnetting, we need to assigned the network to each of the required network respectively.
+After subnetting, we need to assign the network to each of the required network respectively.
 
 **First subnet (Assigned to VLAN 10)**
 Network ID: 192.168.2.0/26
@@ -198,7 +198,7 @@ Step 4: Enter the SSID and choose the authentication mechanism
    PSK pass phrase: admin@123
 Step 5: Close
 
-**How Device Obtained IP Automatic**
+**How Device Obtained IP Automatically**
 
 To help understand the process, We document the steps to get IP assigned to the device through image illustration.
 
