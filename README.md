@@ -57,7 +57,7 @@ Decimal Format: 255.255.255.192
 
 I understand you will be confused about how we arrived at the 192.  We will show you how is calculated.
 This bit from 11000000 from the new subnet mask is converted to decimal format
-Since we are converting from binary to decimal, our figure will be in base 2.
+Since we are converting from binary to decimal which would be in base 2.
 
 Solving: 1*2^7+1*2^6+0*2^5+0*2^4+0*2^3+0*2^2+0*2^1+0*2^0 = 128+64+0+0+0+0+0+0 = 192.
 
