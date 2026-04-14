@@ -40,7 +40,7 @@ No.of subnets = 2^n where n represents the number of bits from the host portion.
 
 2^n=3
 
-Remember, you can not use a smaller number or equal to the required subnet needed but can use a higher number to accommodate the subnet required. We cannot use 2^0 =1 and 2^1=2 which are both less than 3, thus we can use 2^2=4 but we will tag it as 3. Without much explanation, lets get the calculation done.
+Remember, you can not use a smaller number or equal to the required subnet needed but can use a higher number to accommodate the subnet required. We cannot use 2^0 =1 and 2^1=2 which are both less than 3, thus we can use 2^2=4 but we will tag it as 3. Without further explanation, lets get the calculation done.
 
 Basic Network: 192.168.2.0/24
 Subnet Mask: 255.255.255.0 --- Class C
